@@ -40,7 +40,7 @@ function News() {
 					<div className="row">
 					{news.map((item) => (
 						<div className="card col-4 inline">
-							<img className="card-img-top" src={item.urlToImage} alt="Card image cap" />
+							<img className="card-img-top" src={item.urlToImage} alt="Card cap" />
 							<div className="card-body">
 								<h5 className="card-title">{item.source.name}</h5>
 								<p className="card-text">
